@@ -7,6 +7,8 @@ This project is a serverless web application that allows users to upload multipl
 - **Amazon S3** – to store processed PDFs.
 - **AWS Amplify** – to host the frontend.
 - **IAM** – to control access permissions between services.
+- **Amazon CloudWatch** - for logging and monitoring.
+- **AWS Resource Policy** - controls cross-service permissions (not a service, but part of IAM)
 
 🟢 Hosted via AWS Amplify: https://static.d11834rh3l5vh9.amplifyapp.com
 
@@ -39,6 +41,26 @@ This project is a serverless web application that allows users to upload multipl
 ┃ ┗ 📄image_to_pdf.py
 
 ┣ 📄README.md
+
+---
+
+## 🖥️ AWS Architecture Overview
+
+-AWS Amplify hosts and deploys the static frontend (HTML/JS/CSS)
+
+-Amazon API Gateway routes HTTP POST requests to the backend Lambda
+
+-AWS Lambda handles the image-to-PDF conversion logic
+
+-Amazon S3 stores the images and generated PDF files or logs
+
+-IAM Policies & Lambda Resource Policies securely allow API Gateway to invoke Lambda
+
+-CORS Configuration on API Gateway enables secure cross-origin requests from the frontend
+
+-CloudWatch Logs help debug Lambda executions and monitor errors
+
+-Amazon SNS (optional) can notify users or systems after a PDF is generated
 
 ---
 
