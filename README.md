@@ -23,11 +23,19 @@ This project is a serverless web application that allows users to upload multipl
 ## 📁 Project Structure
 
 📦image-to-pdf-converter
+
 ┣ 📁frontend/
 
 ┃ ┣ 📄index.html
+
 ┃ ┣ 📄style.css
+
 ┃ ┗ 📄backend.js
+
 ┣ 📁lambda/
+
 ┃ ┗ 📄image_to_pdf.py
+
 ┣ 📄README.md
+
+
