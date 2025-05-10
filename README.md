@@ -8,6 +8,8 @@ This project is a serverless web application that allows users to upload multipl
 - **AWS Amplify** – to host the frontend.
 - **IAM** – to control access permissions between services.
 
+🟢 Hosted via AWS Amplify: https://d3tbtv7bxs3vbw.cloudfront.net](https://static.d11834rh3l5vh9.amplifyapp.com/
+
 ---
 
 ## 🚀 Features
