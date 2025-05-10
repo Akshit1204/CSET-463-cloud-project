@@ -1,4 +1,4 @@
-# 🖼️ Image to PDF Converter (AWS Lambda + Amazon S3 + Amplify)
+# 🖼️ Image to PDF Converter 
 
 This project is a serverless web application that allows users to upload multiple images and convert them into a single PDF file. It uses the following AWS services:
 
