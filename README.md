@@ -1,10 +1,10 @@
-# 🖼️ Image to PDF Converter (AWS Lambda + API Gateway + Amplify)
+# 🖼️ Image to PDF Converter (AWS Lambda + Amazon S3 + Amplify)
 
 This project is a serverless web application that allows users to upload multiple images and convert them into a single PDF file. It uses the following AWS services:
 
 - **AWS Lambda** – to handle the image processing and PDF creation.
 - **API Gateway** – to expose the Lambda function via a REST endpoint.
-- **Amazon S3** (optional) – to store processed PDFs.
+- **Amazon S3** – to store processed PDFs.
 - **AWS Amplify** – to host the frontend.
 - **IAM** – to control access permissions between services.
 
