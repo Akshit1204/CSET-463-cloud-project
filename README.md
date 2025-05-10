@@ -62,6 +62,8 @@ This project is a serverless web application that allows users to upload multipl
 
 - Amazon SNS (optional) can notify users or systems after a PDF is generated
 
+![image](https://github.com/user-attachments/assets/c41eabd1-af5b-42bf-a8cb-098d062bc929)
+
 ---
 
 ## 💻 Frontend Deployment
