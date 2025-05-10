@@ -1,0 +1,131 @@
+/* Dynamic Background Gradient Animation */
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 100vh;
+    background-color: #f4f4f4; /* Soft neutral background color */
+  }
+  
+  /* Header Styling - Classic Look */
+  .header {
+    background-color: #3a3a3a; /* Darker neutral color for a more classic feel */
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Card Styling */
+  .card {
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Button Styling */
+  .upload-btn {
+    background-color: #64b5f6;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  .upload-btn:hover {
+    background-color: #3f88c5;
+  }
+  
+  /* File Preview */
+  .file-preview {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .file-item {
+    margin: 10px;
+    padding: 10px;
+    background-color: #eeeeee;
+    border-radius: 8px;
+    width: 150px;
+    text-align: center;
+  }
+  
+  .file-item img {
+    max-width: 100px;
+    max-height: 100px;
+    object-fit: cover;
+    margin-bottom: 8px;
+  }
+  
+  .file-item p {
+    font-size: 12px;
+    color: #333;
+  }
+  
+  .status {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #3f51b5;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 36px;
+    font-weight: 600;
+    color: #3f51b5; /* Slightly darker blue */
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .file-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
