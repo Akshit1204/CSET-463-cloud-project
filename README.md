@@ -78,6 +78,18 @@ This project is a serverless web application that allows users to upload multipl
 
 ---
 
+## 📥 How to Run
+
+- Clone the repo
+
+- Deploy the Lambda via AWS Console
+
+- Deploy the frontend via Amplify
+
+- Test using browser or Postman
+
+---
+
 ## 🔐 Security Notes
 
 - Consider restricting CORS to only your Amplify domain.
