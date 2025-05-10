@@ -54,31 +54,31 @@ fetch('https://<API_ID>.execute-api.us-east-1.amazonaws.com/prod/convert', {
 
 ## 🔐 Security Notes
 
-Consider restricting CORS to only your Amplify domain.
+- Consider restricting CORS to only your Amplify domain.
 
-Validate file types and size in Lambda.
+- Validate file types and size in Lambda.
 
-Add API keys or usage plans for rate limiting.
+- Add API keys or usage plans for rate limiting.
 
 ---
 
 ## 🧪 Testing
 
-Open the frontend in the browser.
+- Open the frontend in the browser.
 
-Select multiple image files.
+- Select multiple image files.
 
-Click the upload/convert button.
+- Click the upload/convert button.
 
-Observe the PDF generation status.
+- Observe the PDF generation status.
 
 ---
 
 ## 📌 Known Issues
 
-Some image formats may not convert correctly if not handled in the Lambda code.
+- Some image formats may not convert correctly if not handled in the Lambda code.
 
-Large files may cause timeouts if Lambda execution time isn't increased.
+- Large files may cause timeouts if Lambda execution time isn't increased.
 
 ---
 
