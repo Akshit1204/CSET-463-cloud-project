@@ -42,13 +42,13 @@ This project is a serverless web application that allows users to upload multipl
 
 ## 💻 Frontend Deployment
 
-Host index.html, style.css, and backend.js on AWS Amplify.
+- Host index.html, style.css, and backend.js on AWS Amplify.
 
-Ensure the JavaScript uses the correct endpoint:
-fetch('https://<API_ID>.execute-api.us-east-1.amazonaws.com/prod/convert', {
-  method: 'POST',
-  body: formData
-});
+- Ensure the JavaScript uses the correct endpoint:
+ fetch('https://<API_ID>.execute-api.us-east-1.amazonaws.com/prod/convert', {
+   method: 'POST',
+   body: formData
+ });
 
 ---
 
