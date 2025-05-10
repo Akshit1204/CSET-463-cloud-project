@@ -46,21 +46,21 @@ This project is a serverless web application that allows users to upload multipl
 
 ## 🖥️ AWS Architecture Overview
 
--AWS Amplify hosts and deploys the static frontend (HTML/JS/CSS)
+- AWS Amplify hosts and deploys the static frontend (HTML/JS/CSS)
 
--Amazon API Gateway routes HTTP POST requests to the backend Lambda
+- Amazon API Gateway routes HTTP POST requests to the backend Lambda
 
--AWS Lambda handles the image-to-PDF conversion logic
+- AWS Lambda handles the image-to-PDF conversion logic
 
--Amazon S3 stores the images and generated PDF files or logs
+- Amazon S3 stores the images and generated PDF files or logs
 
--IAM Policies & Lambda Resource Policies securely allow API Gateway to invoke Lambda
+- IAM Policies & Lambda Resource Policies securely allow API Gateway to invoke Lambda
 
--CORS Configuration on API Gateway enables secure cross-origin requests from the frontend
+- CORS Configuration on API Gateway enables secure cross-origin requests from the frontend
 
--CloudWatch Logs help debug Lambda executions and monitor errors
+- CloudWatch Logs help debug Lambda executions and monitor errors
 
--Amazon SNS (optional) can notify users or systems after a PDF is generated
+- Amazon SNS (optional) can notify users or systems after a PDF is generated
 
 ---
 
