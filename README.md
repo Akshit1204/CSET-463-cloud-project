@@ -128,7 +128,13 @@ Feel free to fork, modify, and use.
 
 ## 👨‍💻 Author
 
-Built by Anshul Choudhary(E22CSEU0954), Akshit Naagar(E22CSEU0944) & Mohit Jakhar(E22CSEU0941).
+Built by: 
+
+Anshul Choudhary (E22CSEU0954) 
+
+Akshit Naagar (E22CSEU0944) 
+
+Mohit Jakhar (E22CSEU0941)
 
 Special thanks to AWS for their APIs and infrastructure.
 
