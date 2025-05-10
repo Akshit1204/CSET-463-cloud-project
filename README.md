@@ -110,7 +110,7 @@ This project is a serverless web application that allows users to upload multipl
 
 ## 📄 License
 
-MIT License. Feel free to fork, modify, and use.
+Feel free to fork, modify, and use.
 
 ---
 
